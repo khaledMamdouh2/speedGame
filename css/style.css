@@ -1,0 +1,42 @@
+			body{
+				font-family: Verdana, Geneva ,sans-serif;
+				background-color: #c4c6c6;
+			}
+			h1{
+				color: #2e0c7c;
+			}
+			#circle{
+				height: 250px;
+				width: 300px;
+				background: #dbb1ca;
+				padding-top: 50px;
+				margin-left: 38%;
+				border-radius: 150px;
+				border: 2px solid #07227a;
+			}
+			#number{
+				color: #07227a;
+				font-size: 150px;
+				margin-left: 33%;
+			}
+			input[type="button"]{
+				border-radius: 5px;
+				background: #599DDc;
+				height: 50px;
+				width: 120px;
+				font-size: 20px;
+				margin-top: 20px;
+				text-align: center;
+			}
+			#start-btn{
+				margin-left: 40%;
+			}
+			#result-lbl,#result{
+				visibility: hidden;
+				font-size: 40px;
+				color: #07227a;
+			}
+			#resultContainer{
+				margin-left: 38%;
+				margin-top: 2%;
+			}

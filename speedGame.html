@@ -1,0 +1,24 @@
+<!DOCTYPE HTML public "-//w3c//dtd html 4.01//en" "http://www.w3.org/tr/html4/strict.dtd">
+<html>
+	<head>
+		<title>Speed Game</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/script.js" ></script>
+	</head>
+	<body onkeyup="compare_key()">
+		<h1 align="center">test your reactions</h1>
+		<div id="circle">
+			<span id="number"></span>
+		</div>
+		
+		<input type="button" id="start-btn" value="start game" onclick="start_game()">
+		<input type="button" value="end game"  onclick="end_game()">
+		<div id="resultContainer">
+			<span id="result-lbl">your score is: </span>
+			<span id="result"></span>
+		</div>
+		
+	
+		
+	</body>
+</html>
